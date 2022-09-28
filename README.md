@@ -97,7 +97,7 @@ Colors and fonts for desktop:
 Light text: rgb(225, 239, 230);
 Dark background: rgb(0, 4, 17);
 Dark transparency: background-color: rgb(0, 4, 17, .8);
-​
+​ 
 Colors and fonts for mobile: 
 Dark text: rgb(0, 4, 17);
 Light background: rgb(225, 239, 230);
