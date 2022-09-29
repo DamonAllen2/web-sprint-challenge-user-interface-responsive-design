@@ -154,6 +154,10 @@ header {
     flex-wrap: wrap;
 }
 
+.background {
+    background-color: rgb(0, 4, 17, .8);
+}
+
 .menu-section {
     display: flex;
     flex-direction: column;
@@ -163,7 +167,16 @@ header {
 
 .menu-item {
     width: 55vh;
-    margin: auto;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+}
+
+.menu-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* footer section */
