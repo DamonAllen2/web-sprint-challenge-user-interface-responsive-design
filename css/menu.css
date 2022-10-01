@@ -159,10 +159,12 @@ header {
 }
 
 .menu-section {
+    margin: 5vh auto;
     display: flex;
     flex-direction: column;
     width: 60vh;
     justify-content: space-between;
+    margin-bottom: 7vh;
 }
 
 .menu-item {
@@ -170,7 +172,6 @@ header {
     padding: 2vh;
     display: flex;
     flex-direction: column;
-    flex-flow: column;
 }
 
 .menu-title {
@@ -199,22 +200,84 @@ footer {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    .body {
+        width: 100%;
+    }
     .header-title {
         width: 75%;
         margin: 0 auto;
         text-align: center;
         font-size: 4rem;
     }
+    header .h1 {
+        font-size: 6vh;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+
+    .brands {
+        zoom: 2;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-bottom: 1vh;
+    }
 
     /* menu */
     .menu {
         background-image: none;
+        width:  100%;
     }
+    .menu-section {
+        text-align: center;
+        
+    }
+    .menu-container {
+        color: rgb(0, 4, 17) !important;
+    }
+
+   .menu-item {
+    display: flex;
+    align-items: center;
+    
+   }
+   .menu-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
     /* footer section */
     footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+    .footer {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .mail {
+        zoom: 0.8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mail button {
+        width: 80%;
     }
 }
