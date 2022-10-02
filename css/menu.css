@@ -202,6 +202,7 @@ footer {
     /* header section */
     .body {
         width: 100%;
+        background-color: rgb(0, 4, 17);
     }
     .header-title {
         width: 75%;
@@ -210,7 +211,7 @@ footer {
         font-size: 4rem;
     }
     header .h1 {
-        font-size: 6vh;
+        font-size: 6vh; 
     }
     .navigation{
         display: flex;
@@ -236,19 +237,41 @@ footer {
         background-image: none;
         width:  100%;
     }
+    .menu h2, h3, h4, p {
+        color:rgb(0, 4, 17);
+    }
+    .menu h2 {
+        justify-content: space-evenly;
+        border-bottom: 20px solid rgb(0, 4, 17);
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10vh;
+    }
+    .menu h3 {
+        border: 5px solid rgb(0, 4, 17);
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 65%;
+    }
+    .background {
+        background-color: rgb(225, 239, 230);
+    }
     .menu-section {
         text-align: center;
-        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    .menu-container {
-        color: rgb(0, 4, 17) !important;
+    .menu-title{
+        width: 90%;
+    }
+   .menu-item {
+    align-items: center;
+    width: 65%;
+    border-bottom: 5px solid rgb(0, 4, 17);
     }
 
-   .menu-item {
-    display: flex;
-    align-items: center;
-    
-   }
    .menu-title {
     display: flex;
     flex-direction: column;
@@ -260,6 +283,12 @@ footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        background-color: rgb(0, 4, 17);
+    }
+    footer h3 {
+        color:rgb(225, 239, 230);
+        zoom: 0.5;
+        margin-bottom: 5vh;
     }
     .footer {
         font-size: 2rem;
@@ -279,5 +308,9 @@ footer {
     }
     .mail button {
         width: 80%;
+    }
+    .copyrights {
+        color: rgb(225, 239, 230);
+        size: 3;
     }
 }
